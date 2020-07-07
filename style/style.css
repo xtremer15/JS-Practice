@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+body {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Roboto Mono", monospace;
+}
+
+#header {
+  border-style: dotted;
+  border-color: blue;
+}
+
+#header-navigation {
+  border-style: double;
+  border-color: greenyellow;
+  display: flex;
+  flex-direction: row;
+}
+
+#logo {
+  border-style: dotted;
+  border-color: violet;
+  flex: 2 1 auto;
+  align-self: center;
+}
+
+#dropdownMenu {
+  position: relative;
+  border-style: double;
+  border-color: teal;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+#dropdownMenu li {
+  text-align: end;
+  flex-grow: 1;
+}
+/* To test the adding of Dropdown submenu  */
+.testClass {
+  border-style: double;
+  border-color: teal;
+  position: absolute;
+  width: 50px;
+  height: inherit;
+  top: 20px;
+  left: 102px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#dropdownMenu div a {
+  text-decoration: none;
+}
+
+/* HAM MENU STYLE */
+
+.top,
+.mid,
+.bottom {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.5s;
+}
+
+/* HAM MENU STYLE  ENDS*/
